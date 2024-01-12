@@ -4,9 +4,8 @@ Vulnerability http://127.0.0.1:8080/fastcms/api/admin/page/save
 
 POST form-data parameter title=" " exists stored cross-site scripting
 
-Copy Steps
+Copy Steps 
 1.Go to administrator login
-
 http://127.0.0.1:8080/fastcms/
 
 Default administrator access information username:admin password: 1
