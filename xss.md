@@ -6,7 +6,9 @@ POST form-data parameter title=" " exists stored cross-site scripting
 
 Copy Steps
 1.Go to administrator login
+
 http://127.0.0.1:8080/fastcms/
+
 Default administrator access information username:admin password: 1
 
 2.Click on "Page" and click on "New Page"
@@ -14,6 +16,7 @@ Default administrator access information username:admin password: 1
 
 
 3.Put Payload into the title parameter
+
 Payload:<script>alert(document.cookie)</script>
 ![image](https://github.com/biantaibao/XSS/assets/131763503/5bbafc53-ae85-47f1-8481-3994fa3c35af)
 
