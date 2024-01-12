@@ -1,14 +1,16 @@
 CMS:https://github.com/my-fastcms/fastcms/
 
-Vulnerability http://127.0.0.1:8080/fastcms/api/admin/page/save
+Vulnerability url:http://127.0.0.1:8080/fastcms/api/admin/page/save
 
-POST form-data parameter title=" " exists stored cross-site scripting
+POST form-data parameter title="payload" exists stored cross-site scripting
 
 Copy Steps 
+
 1.Go to administrator login
+
 http://127.0.0.1:8080/fastcms/
 
-Default administrator access information username:admin password: 1
+Default Admin Access Information Username: admin / Password: 1
 
 2.Click on "Page" and click on "New Page"
 ![295873542-05741a25-8139-4c89-bb98-101c97e4f93e](https://github.com/biantaibao/XSS/assets/131763503/16ed9fd1-b9ce-405a-9b79-b5488485c902)
